@@ -1,0 +1,31 @@
+/* descendant combinators require a space, the far left type or class selector is the acenstor and the far right is the descendant */
+/* div p{
+    background-color: rgba(243, 243, 164, 0.986);
+    color: rgb(153, 64, 64);
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* this works the same as the above */
+div .text{
+    background-color: rgba(243, 243, 164, 0.986);
+    color: rgb(153, 64, 64);
+    font-size: 20px;
+    text-align: center;
+} 
+
+/* this also works */
+/* .container .text{
+    background-color: rgba(243, 243, 164, 0.986);
+    color: rgb(153, 64, 64);
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* this does not work */
+/* .containter p{
+    background-color: rgba(243, 243, 164, 0.986);
+    color: rgb(153, 64, 64);
+    font-size: 20px;
+    text-align: center;
+} */
