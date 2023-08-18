@@ -12,8 +12,7 @@
     font-size: 36px;
 }
 
-#fourth{
+#fourth.third{
     background-color: rgb(164, 255, 225);
-    font-size: 24px;
     font-weight: 700;
 }
