@@ -22,8 +22,8 @@ div .text{
     text-align: center;
 } */
 
-/* this does not work */
-/* .containter p{
+/* this also works */
+/* .container p{
     background-color: rgba(243, 243, 164, 0.986);
     color: rgb(153, 64, 64);
     font-size: 20px;
