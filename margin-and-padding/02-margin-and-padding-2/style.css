@@ -34,6 +34,8 @@ button {
   display: block;
   background: white;
   border: 1px solid #eee;
+  /* the reason this margin centering works is because it is a child element, 
+  it is within the class card which has a width specified. if button was not a child element without a specified width this would do nothing */
   margin: 0 auto;
   padding: 8px 24px;
 }
