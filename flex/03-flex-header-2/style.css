@@ -12,6 +12,11 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* stuff i wrote */
+  display: flex;
+  padding: 8px;
+  /* the reason space between works because there are 2 flex containers under this header */
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -45,4 +50,18 @@ a {
 
 ul {
   list-style-type: none;
+  /* stuff i wrote */
+  padding: 0px;
+}
+
+/* important concept, the reason justifycontent does not work here is because the div has no sizing
+ basis will be zero hence no change with justify-content: flex-end. */
+.left-container,.right-container{
+  align-items: center;
+}
+
+
+ul,.left-container,.right-container{
+  display: flex;
+  gap:16px;
 }
